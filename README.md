@@ -34,3 +34,8 @@ sudo make install
 ```
 
 There is also a `PKGBUILD` usable on distributions with pacman. Run `makepkg -si` instead of `sudo make install`.
+
+## (Addendum) I have added the following two patches on top of Luke's regular build:
+
+- attachbottom
+- systray
